@@ -1,0 +1,17 @@
+name: FoxLifeStealCore
+version: 1.0
+main: com.sky.foxlifestealcore.Foxlifstealcore
+api-version: 1.21
+author: YourNameHere
+description: A life-steal plugin that adds hearts when killing players.
+website: https://your-website-or-github-if-any.com
+
+commands:
+  removeheart:
+    description: Removes heart(s) and gives them as items
+    usage: /removeheart <amount>
+
+permissions:
+  foxlifesteal.removeheart:
+    default: op
+
